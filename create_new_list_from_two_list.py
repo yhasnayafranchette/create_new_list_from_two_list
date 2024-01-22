@@ -10,3 +10,8 @@ def create_new_list(list_one, list_two):
     return new_list
 
 #Print new list
+list_one = [10, 20, 25, 30, 35]
+list_two = [40, 45, 60, 75, 90]
+
+result = create_new_list(list_one, list_two)
+print("result list:", result)
